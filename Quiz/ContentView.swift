@@ -53,12 +53,14 @@ struct ContentView: View {
                     } label: {
                         Image(systemName: "triangle.fill")
                         Text(questions[currentQuestion].option1)
+                            .padding()
                     }
                     Button {
                         didTapOption(optionNumber: 2)
                     } label: {
                         Image(systemName: "circle.fill")
                         Text(questions[currentQuestion].option2)
+                            .padding()
                     }
                 }
                 .padding()
@@ -68,12 +70,14 @@ struct ContentView: View {
                     } label: {
                         Image(systemName: "diamond.fill")
                         Text(questions[currentQuestion].option3)
+                            .padding()
                     }
                     Button {
                         didTapOption(optionNumber: 4)
                     } label: {
                         Image(systemName: "square.fill")
                         Text(questions[currentQuestion].option4)
+                            .padding()
                     }
                 }
                 .padding()
