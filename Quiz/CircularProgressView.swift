@@ -2,7 +2,7 @@
 //  CircularProgressView.swift
 //  Quiz
 //
-//  Created by Jun Heng
+//  Created by Wong Jun Heng on 18/6/2022
 //
 
 import SwiftUI

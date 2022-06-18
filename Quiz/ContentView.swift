@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Quiz
 //
-//  Created by Jun Heng on 18/6/2022
+//  Created by Wong Jun Heng on 18/6/2022
 //
 
 import SwiftUI

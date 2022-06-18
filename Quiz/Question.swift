@@ -2,7 +2,7 @@
 //  Question.swift
 //  Quiz
 //
-//  Created by JiaChen(: on 1/6/21.
+//  Created by Wong Jun Heng on 18/6/2022
 //
 
 import Foundation
