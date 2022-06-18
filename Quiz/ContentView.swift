@@ -87,7 +87,7 @@ struct ContentView: View {
         .alert(isPresented: $isAlertPresented) {
             
             Alert(title: Text(isCorrect ? "Correct" : "Wrong"),
-                  message: Text(isCorrect ? "Congrats, you are kinda smart." : "Skills issue"),
+                  message: Text(isCorrect ? "No skill issue detected." : "Skill issue"),
                   dismissButton: .default(Text("OK")) {
                     currentQuestion += 1
                     

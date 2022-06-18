@@ -2,7 +2,7 @@
 //  QuizApp.swift
 //  Quiz
 //
-//  Created by JiaChen(: on 1/6/21.
+//  Created by Jun Heng
 //
 
 import SwiftUI
