@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var questions = [Question(title: "What day is it?",
-                              option1: "Monday",
-                              option2: "Friday",
-                              option3: "Wednesday",
+    var questions = [Question(title: "Do you like paw Patrol?",
+                              option1: "Yes",
+                              option2: "No",
+                              option3: "Chase is the love of my life",
                               option4: "Saturday",
-                              correctOption: 4),
+                              correctOption: 3),
                      Question(title: "What framework are we using?",
                               option1: "UIKit",
                               option2: "SwiftUI",
@@ -117,5 +117,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
